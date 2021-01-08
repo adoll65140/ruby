@@ -1,13 +1,13 @@
 def fizz_buzz(number)
-  if number%3==0
-    puts "Fizz"
+  if number%15==0
+    puts "fizz_buzz"
+    elsif number%3==0
+      puts "Fizz"
     elsif number% 5==0
       puts "Buzz"
-      elsif number%15==0
-        puts "fizz_buzz"
-      else
-        puts number
-      end
+    else
+      puts number
+  end
 end
 
 puts "数字を入力してください"
